@@ -25,11 +25,11 @@ with open("./credentials.json", 'r') as file:
 
 # Do something fun. Save a script (or a book or anything) as a '.txt' file, then load it here.
 # Separate lines that should be comments by new lines.
-# See theChineseRestaurant.txt 
+# See frankendoodle.txt 
 scriptLines = []
 scriptIndex = 0
 with open("./frankendoodle.txt", 'r') as file:
-    lines = file.readlines() 
+    scriptLines = file.readlines() 
             
 
 emailCredentials = credentials["email"]
