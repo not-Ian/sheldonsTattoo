@@ -28,11 +28,8 @@ with open("./credentials.json", 'r') as file:
 # See theChineseRestaurant.txt 
 scriptLines = []
 scriptIndex = 0
-with open("./theChineseRestaurant.txt", 'r') as file:
+with open("./frankendoodle.txt", 'r') as file:
     lines = file.readlines() 
-    for line in lines:
-        if not line.isspace():
-            scriptLines.append(line)
             
 
 emailCredentials = credentials["email"]
