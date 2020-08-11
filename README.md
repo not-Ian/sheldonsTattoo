@@ -40,5 +40,7 @@ You can now run the script by opening up your command prompt or terminal and run
 #### Misc
 
 It's kind of annoying to stop the script in the middle of running. It'll be trying to type stuff, so you need to go really quickly and `ctrl+c` or whatever command it is to stop.
+
 You can't really do other things with your computer while this is running. Close your eyes and think about Sheldon at a tattoo shop.
+
 The slower methods likely have a lower chance of being caught by Facebook's spam filter? I think the script method probably has the lowest since it 1. paces itself, and 2. has different content for each comment.
