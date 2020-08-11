@@ -31,7 +31,7 @@ A description of each:
 
 1. `paste` - Post comments from whatever you have copied on your clipboard. This method is the fastest.
 2. `type` - Posts comments from the text on line 20. This is slower since it types it out manually, rather than copy/pasting like `paste` does. 
-3. `script` - Putting various text in a separate file, and having the code read that file line by line, and posting each line separately as a comment. If you want to use your own, save a script as a `.txt` file in this directory, and change line 32 to point to your new script.
+3. `script` - This one's the most fun. Putting various text in a separate file, and having the code read that file line by line, and posting each line separately as a comment. If you want to use your own, save a script as a `.txt` file in this directory, and change line 32 to point to your new script.
 
 There's a variable on line 15 `numComments` - put the number of comments you want to make here if you're using comment type `paste` or `type`.
 
