@@ -5,7 +5,7 @@ I'm trying to make this easy enough for a not-so-technical person to use.
 ## Installation
 
 1. Install Python 3. I'm using 3.6.11. Our versions don't have to be exactly the same. Download python here: https://www.python.org/downloads/
-2. Install all the packages this project uses. This can be done by opening up a `terminal` or `command prompt` *(depending on if you're on OSX or Windows)*, navigating to the directory this project is saved in using terminal *(this is done with the `cd`. You might run something like this command to go to my project directory on Windows: `cd ".\Development\python\Sheldons Tattoo"` or something like this command if you're on OSX: `cd "~/Development/python/Sheldons\ Tattoo`)*. Then finally, run this command: `pip install -r requirements.txt`. This should take some time to install everything, and there might be some prompts asking if you're sure you want to download.
+2. Install all the packages this project uses. This can be done by opening up a `terminal` or `command prompt` *(depending on if you're on OSX or Windows)*, navigating to the directory this project is saved in using terminal *(this is done with the `cd`. You might run something like this command to go to your project directory on Windows: `cd ".\Development\python\Sheldons Tattoo"` or something like this command if you're on OSX: `cd "~/Development/python/Sheldons\ Tattoo`)*. Then finally, run this command: `pip install -r requirements.txt`. This should take some time to install everything, and there might be some prompts asking if you're sure you want to download.
 
 3. You'll also need to install a webdriver in order for one of the Python packages "Selenium" to interact with a web browser. Instructions for that can be found here: https://selenium-python.readthedocs.io/installation.html
 
@@ -38,6 +38,8 @@ There's a variable on line 15 `numComments` - put the number of comments you wan
 You can now run the script by opening up your command prompt or terminal and running `python3 ./comment.py`, or running it in your favorite IDE.
 
 #### Misc
+
+You should keep on eye on the browser for the first 20-30 seconds to make sure no popups appear that prevent the script from typing comments. On Chrome, I noticed Facebook asks if I'll allow it to send me notifications every time I log-in. I dismiss this as fast as I can, then scroll down to the comment box. There's a 10 second delay after logging in to give you time to do this.
 
 It's kind of annoying to stop the script in the middle of running. It'll be trying to type stuff, so you need to go really quickly and `ctrl+c` or whatever command it is to stop.
 
